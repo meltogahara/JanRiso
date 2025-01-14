@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #92C7C7;
+            }
+            header {
+                background-color: #FED8B1;
+                color: black;
+                padding: 1.5rem 0;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                margin: 0;
+                font-size: 2rem;
+            }
+            h2 {
+                margin: 20px 0;
+                font-size: 1.8rem;
+                color: black;
+            }
+            img {
+                width: 180px;
+                height: auto;
+                border-radius: 10px;
+                margin: 15px auto;
+                display: block;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            p {
+                font-size: 1.2rem;
+                line-height: 1.4;
+                color: black;
+                max-width: 800px;
+                margin: 15px auto;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 20px auto;
+                max-width: 600px;
+                background-color: white;
+                border: 1px solid white;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            ul li {
+                padding: 15px;
+                border-bottom: 1px solid white;
+                font-size: 1.2rem;
+                color: black;
+            }
+            ul li:last-child {
+                border-bottom: none;
+            }
+            ul li b {
+                color: black;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                padding-bottom: 150px; 
+            }
+            footer {
+                background-color: #FED8B1;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+                z-index: 800;
+                box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome!</h1>
+        </header>
+
+        <main class="container">
+            <section class="Bio">
+                <h2>About Me</h2>
+                <p>Hi! My name is Thurein Aung Myin, a computer science student at RSU. I'm excited to attain essential skills required to be a programmer! </p>
+                <img src="profilepic.jpg" alt="Profile Picture">
+            </section>
+
+            <section class="Self">
+                <h2>My Profile</h2>
+                <ul>
+                    <li><b>Name:</b> Thurein Aung Myin</li>
+                    <li><b>Age:</b> 28</li>
+                    <li><b>Education:</b> Bachelor student and Rangsit University</li>
+                    <li><b>Location:</b> Pathum Thani</li>
+                </ul>
+            </section>
+
+            <section class="Interests">
+                <h2>My Interests</h2>
+                <nav>
+                    <ul>
+                        <li><a href="authors.html">Philosophy</a></li>
+                        <li><a href="authors.html">Reading</a></li>
+                        <li><a href="games.html">Video Games</li>
+                        <li><a href=football.html>Football</a></li>
+                    </ul>
+                </nav>    
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>Thank you for visiting my page!</p>
+            <p>Contact me at :<a href="mailto:thurein.a66@rsu.ac.th"> thurein.a66@rsu.ac.th</a></p>
+        </footer>
+    </body>
+</html>
